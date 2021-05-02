@@ -79,7 +79,7 @@ def cross_validating(x,y, degrees, subsets, n):
         
     return best_degree
 
-data = pd.read_csv("data_second.csv")
+data = pd.read_csv("data_main.csv")
 all_x = data['kg'].values.tolist()
 all_y = data['m'].values.tolist()
 var = int(len(all_x)*0.9)
